@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from pprint import pprint
-client=MongoClient("mongodb+srv://201701222:201701222@cluster0-fbwsl.mongodb.net/test?retryWrites=true&w=majority")
+client=MongoClient("mongodb+srv://201701222:201701222@nosql-mwo9a.mongodb.net/test?retryWrites=true&w=majority")
 db=client["analytics"]
 
 
